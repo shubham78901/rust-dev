@@ -48,7 +48,12 @@ fn fourth(){
 }
 fn fifth(){
 
-    for i in 0..57{
-        println!("{} shubham",i);
+    for i in 0..4{
+        if i==2{
+            continue;
+        }else{
+            println!("{} shubham",i);
+        }
+       
     }
 }
